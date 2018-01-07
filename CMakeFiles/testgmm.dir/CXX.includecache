@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chathura/maxi_latest/gmm_c++/core.cpp
+core.h
+/home/chathura/maxi_latest/gmm_c++/core.h
+
+/home/chathura/maxi_latest/gmm_c++/core.h
+string.h
+-
+math.h
+-
+cmath
+-
+
+/home/chathura/maxi_latest/gmm_c++/test.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+fstream
+-
+climits
+-
+iostream
+-
+core.h
+/home/chathura/maxi_latest/gmm_c++/core.h
+
