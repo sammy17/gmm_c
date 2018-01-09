@@ -39,7 +39,7 @@ int main() {
 
 	cv::VideoCapture cap;
 	cv::Mat frame;
-	cap.open("cut_out.avi");
+	cap.open("output.avi");
 //cap.open("e.mp4");
 
 	if (!cap.isOpened()) {

@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chathura/maxi_latest/gmm_c++
+CMAKE_SOURCE_DIR = /home/fyp-zc702/Desktop/maxi_latest/gmm_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chathura/maxi_latest/gmm_c++
+CMAKE_BINARY_DIR = /home/fyp-zc702/Desktop/maxi_latest/gmm_c
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chathura/maxi_latest/gmm_c++/CMakeFiles /home/chathura/maxi_latest/gmm_c++/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles /home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chathura/maxi_latest/gmm_c++/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

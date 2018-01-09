@@ -1,4 +1,4 @@
-# Install script for directory: /home/chathura/maxi_latest/gmm_c++
+# Install script for directory: /home/fyp-zc702/Desktop/maxi_latest/gmm_c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chathura/maxi_latest/gmm_c++/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fyp-zc702/Desktop/maxi_latest/gmm_c/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

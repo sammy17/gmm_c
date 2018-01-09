@@ -1,3 +1,3 @@
-/home/chathura/maxi_latest/gmm_c++/CMakeFiles/edit_cache.dir
-/home/chathura/maxi_latest/gmm_c++/CMakeFiles/rebuild_cache.dir
-/home/chathura/maxi_latest/gmm_c++/CMakeFiles/testgmm.dir
+/home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles/edit_cache.dir
+/home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles/rebuild_cache.dir
+/home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles/testgmm.dir

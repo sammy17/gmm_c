@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chathura/maxi_latest/gmm_c++
+CMAKE_SOURCE_DIR = /home/fyp-zc702/Desktop/maxi_latest/gmm_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chathura/maxi_latest/gmm_c++
+CMAKE_BINARY_DIR = /home/fyp-zc702/Desktop/maxi_latest/gmm_c
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testgmm.dir/depend.make
@@ -57,42 +57,18 @@ include CMakeFiles/testgmm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testgmm.dir/flags.make
 
-CMakeFiles/testgmm.dir/core.cpp.o: CMakeFiles/testgmm.dir/flags.make
-CMakeFiles/testgmm.dir/core.cpp.o: core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chathura/maxi_latest/gmm_c++/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testgmm.dir/core.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testgmm.dir/core.cpp.o -c /home/chathura/maxi_latest/gmm_c++/core.cpp
-
-CMakeFiles/testgmm.dir/core.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testgmm.dir/core.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chathura/maxi_latest/gmm_c++/core.cpp > CMakeFiles/testgmm.dir/core.cpp.i
-
-CMakeFiles/testgmm.dir/core.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testgmm.dir/core.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chathura/maxi_latest/gmm_c++/core.cpp -o CMakeFiles/testgmm.dir/core.cpp.s
-
-CMakeFiles/testgmm.dir/core.cpp.o.requires:
-
-.PHONY : CMakeFiles/testgmm.dir/core.cpp.o.requires
-
-CMakeFiles/testgmm.dir/core.cpp.o.provides: CMakeFiles/testgmm.dir/core.cpp.o.requires
-	$(MAKE) -f CMakeFiles/testgmm.dir/build.make CMakeFiles/testgmm.dir/core.cpp.o.provides.build
-.PHONY : CMakeFiles/testgmm.dir/core.cpp.o.provides
-
-CMakeFiles/testgmm.dir/core.cpp.o.provides.build: CMakeFiles/testgmm.dir/core.cpp.o
-
-
 CMakeFiles/testgmm.dir/test.cpp.o: CMakeFiles/testgmm.dir/flags.make
 CMakeFiles/testgmm.dir/test.cpp.o: test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chathura/maxi_latest/gmm_c++/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testgmm.dir/test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testgmm.dir/test.cpp.o -c /home/chathura/maxi_latest/gmm_c++/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testgmm.dir/test.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testgmm.dir/test.cpp.o -c /home/fyp-zc702/Desktop/maxi_latest/gmm_c/test.cpp
 
 CMakeFiles/testgmm.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testgmm.dir/test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chathura/maxi_latest/gmm_c++/test.cpp > CMakeFiles/testgmm.dir/test.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fyp-zc702/Desktop/maxi_latest/gmm_c/test.cpp > CMakeFiles/testgmm.dir/test.cpp.i
 
 CMakeFiles/testgmm.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testgmm.dir/test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chathura/maxi_latest/gmm_c++/test.cpp -o CMakeFiles/testgmm.dir/test.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fyp-zc702/Desktop/maxi_latest/gmm_c/test.cpp -o CMakeFiles/testgmm.dir/test.cpp.s
 
 CMakeFiles/testgmm.dir/test.cpp.o.requires:
 
@@ -105,37 +81,86 @@ CMakeFiles/testgmm.dir/test.cpp.o.provides: CMakeFiles/testgmm.dir/test.cpp.o.re
 CMakeFiles/testgmm.dir/test.cpp.o.provides.build: CMakeFiles/testgmm.dir/test.cpp.o
 
 
+CMakeFiles/testgmm.dir/core.cpp.o: CMakeFiles/testgmm.dir/flags.make
+CMakeFiles/testgmm.dir/core.cpp.o: core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testgmm.dir/core.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testgmm.dir/core.cpp.o -c /home/fyp-zc702/Desktop/maxi_latest/gmm_c/core.cpp
+
+CMakeFiles/testgmm.dir/core.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testgmm.dir/core.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fyp-zc702/Desktop/maxi_latest/gmm_c/core.cpp > CMakeFiles/testgmm.dir/core.cpp.i
+
+CMakeFiles/testgmm.dir/core.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testgmm.dir/core.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fyp-zc702/Desktop/maxi_latest/gmm_c/core.cpp -o CMakeFiles/testgmm.dir/core.cpp.s
+
+CMakeFiles/testgmm.dir/core.cpp.o.requires:
+
+.PHONY : CMakeFiles/testgmm.dir/core.cpp.o.requires
+
+CMakeFiles/testgmm.dir/core.cpp.o.provides: CMakeFiles/testgmm.dir/core.cpp.o.requires
+	$(MAKE) -f CMakeFiles/testgmm.dir/build.make CMakeFiles/testgmm.dir/core.cpp.o.provides.build
+.PHONY : CMakeFiles/testgmm.dir/core.cpp.o.provides
+
+CMakeFiles/testgmm.dir/core.cpp.o.provides.build: CMakeFiles/testgmm.dir/core.cpp.o
+
+
 # Object files for target testgmm
 testgmm_OBJECTS = \
-"CMakeFiles/testgmm.dir/core.cpp.o" \
-"CMakeFiles/testgmm.dir/test.cpp.o"
+"CMakeFiles/testgmm.dir/test.cpp.o" \
+"CMakeFiles/testgmm.dir/core.cpp.o"
 
 # External object files for target testgmm
 testgmm_EXTERNAL_OBJECTS =
 
-testgmm: CMakeFiles/testgmm.dir/core.cpp.o
 testgmm: CMakeFiles/testgmm.dir/test.cpp.o
+testgmm: CMakeFiles/testgmm.dir/core.cpp.o
 testgmm: CMakeFiles/testgmm.dir/build.make
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
-testgmm: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
+testgmm: /usr/local/lib/libopencv_stitching.so.3.3.0
+testgmm: /usr/local/lib/libopencv_superres.so.3.3.0
+testgmm: /usr/local/lib/libopencv_videostab.so.3.3.0
+testgmm: /usr/local/lib/libopencv_aruco.so.3.3.0
+testgmm: /usr/local/lib/libopencv_bgsegm.so.3.3.0
+testgmm: /usr/local/lib/libopencv_bioinspired.so.3.3.0
+testgmm: /usr/local/lib/libopencv_ccalib.so.3.3.0
+testgmm: /usr/local/lib/libopencv_dpm.so.3.3.0
+testgmm: /usr/local/lib/libopencv_face.so.3.3.0
+testgmm: /usr/local/lib/libopencv_freetype.so.3.3.0
+testgmm: /usr/local/lib/libopencv_fuzzy.so.3.3.0
+testgmm: /usr/local/lib/libopencv_img_hash.so.3.3.0
+testgmm: /usr/local/lib/libopencv_line_descriptor.so.3.3.0
+testgmm: /usr/local/lib/libopencv_optflow.so.3.3.0
+testgmm: /usr/local/lib/libopencv_reg.so.3.3.0
+testgmm: /usr/local/lib/libopencv_rgbd.so.3.3.0
+testgmm: /usr/local/lib/libopencv_saliency.so.3.3.0
+testgmm: /usr/local/lib/libopencv_stereo.so.3.3.0
+testgmm: /usr/local/lib/libopencv_structured_light.so.3.3.0
+testgmm: /usr/local/lib/libopencv_surface_matching.so.3.3.0
+testgmm: /usr/local/lib/libopencv_tracking.so.3.3.0
+testgmm: /usr/local/lib/libopencv_xfeatures2d.so.3.3.0
+testgmm: /usr/local/lib/libopencv_ximgproc.so.3.3.0
+testgmm: /usr/local/lib/libopencv_xobjdetect.so.3.3.0
+testgmm: /usr/local/lib/libopencv_xphoto.so.3.3.0
+testgmm: /usr/local/lib/libopencv_shape.so.3.3.0
+testgmm: /usr/local/lib/libopencv_photo.so.3.3.0
+testgmm: /usr/local/lib/libopencv_calib3d.so.3.3.0
+testgmm: /usr/local/lib/libopencv_phase_unwrapping.so.3.3.0
+testgmm: /usr/local/lib/libopencv_dnn.so.3.3.0
+testgmm: /usr/local/lib/libopencv_video.so.3.3.0
+testgmm: /usr/local/lib/libopencv_datasets.so.3.3.0
+testgmm: /usr/local/lib/libopencv_plot.so.3.3.0
+testgmm: /usr/local/lib/libopencv_text.so.3.3.0
+testgmm: /usr/local/lib/libopencv_features2d.so.3.3.0
+testgmm: /usr/local/lib/libopencv_flann.so.3.3.0
+testgmm: /usr/local/lib/libopencv_highgui.so.3.3.0
+testgmm: /usr/local/lib/libopencv_ml.so.3.3.0
+testgmm: /usr/local/lib/libopencv_videoio.so.3.3.0
+testgmm: /usr/local/lib/libopencv_imgcodecs.so.3.3.0
+testgmm: /usr/local/lib/libopencv_objdetect.so.3.3.0
+testgmm: /usr/local/lib/libopencv_imgproc.so.3.3.0
+testgmm: /usr/local/lib/libopencv_core.so.3.3.0
 testgmm: CMakeFiles/testgmm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chathura/maxi_latest/gmm_c++/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testgmm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testgmm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testgmm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,8 +168,8 @@ CMakeFiles/testgmm.dir/build: testgmm
 
 .PHONY : CMakeFiles/testgmm.dir/build
 
-CMakeFiles/testgmm.dir/requires: CMakeFiles/testgmm.dir/core.cpp.o.requires
 CMakeFiles/testgmm.dir/requires: CMakeFiles/testgmm.dir/test.cpp.o.requires
+CMakeFiles/testgmm.dir/requires: CMakeFiles/testgmm.dir/core.cpp.o.requires
 
 .PHONY : CMakeFiles/testgmm.dir/requires
 
@@ -153,6 +178,6 @@ CMakeFiles/testgmm.dir/clean:
 .PHONY : CMakeFiles/testgmm.dir/clean
 
 CMakeFiles/testgmm.dir/depend:
-	cd /home/chathura/maxi_latest/gmm_c++ && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chathura/maxi_latest/gmm_c++ /home/chathura/maxi_latest/gmm_c++ /home/chathura/maxi_latest/gmm_c++ /home/chathura/maxi_latest/gmm_c++ /home/chathura/maxi_latest/gmm_c++/CMakeFiles/testgmm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fyp-zc702/Desktop/maxi_latest/gmm_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyp-zc702/Desktop/maxi_latest/gmm_c /home/fyp-zc702/Desktop/maxi_latest/gmm_c /home/fyp-zc702/Desktop/maxi_latest/gmm_c /home/fyp-zc702/Desktop/maxi_latest/gmm_c /home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles/testgmm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testgmm.dir/depend
 

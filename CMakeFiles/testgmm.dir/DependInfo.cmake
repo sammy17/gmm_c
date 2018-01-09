@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chathura/maxi_latest/gmm_c++/core.cpp" "/home/chathura/maxi_latest/gmm_c++/CMakeFiles/testgmm.dir/core.cpp.o"
-  "/home/chathura/maxi_latest/gmm_c++/test.cpp" "/home/chathura/maxi_latest/gmm_c++/CMakeFiles/testgmm.dir/test.cpp.o"
+  "/home/fyp-zc702/Desktop/maxi_latest/gmm_c/core.cpp" "/home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles/testgmm.dir/core.cpp.o"
+  "/home/fyp-zc702/Desktop/maxi_latest/gmm_c/test.cpp" "/home/fyp-zc702/Desktop/maxi_latest/gmm_c/CMakeFiles/testgmm.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/opencv"
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.
