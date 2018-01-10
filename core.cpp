@@ -28,15 +28,15 @@ int backsub(uint8_t frame_in[IMG_SIZE], uint8_t frame_out[76800], bool init, dat
 					back_gauss[i][0] = true;
 					back_gauss[i][1] = true;
 
-					para[i * MODELS * 3 + 0] = 0;
+					para[i * MODELS * 3 + 0] = 0; // mean
 					para[i * MODELS * 3 + 1] = 0;
 					//parameters[i * MODELS * 3 + 2] = 0;
 
-					para[i * MODELS * 3 + 2] = 4900;
+					para[i * MODELS * 3 + 2] = 4900; //sigma^2
 					para[i * MODELS * 3 + 3] = 4900;
 					//parameters[i * MODELS * 3 + 5] = 2500;
 
-					para[i * MODELS * 3 + 4] = 0.09;
+					para[i * MODELS * 3 + 4] = 0.09; // weight
 					para[i * MODELS * 3 + 5] = 0.09;
 
 					out_frame[i] = EM_ALGO(data_array[i], i, para);
@@ -63,7 +63,7 @@ uint8_t EM_ALGO(uint8_t pixel, int pos, data_t parameters[IMG_SIZE*MODELS*3]) {
 	//Checking whether the pixel is in 2.5sigma distance of every mean
 	for (int j = 0; j < MODELS; j++) {
 		if ((abs(pixel - parameters[pos* MODELS * 3 + j] ) < 2.5 * sqrtf(parameters[pos* MODELS * 3 + 2 + j] ))
-				and (back_gauss[pos][j])) {
+		and (back_gauss[pos][j])) {
 			M[j] = true;
 		}
 		akt[j] = alpha_w / parameters[pos*MODELS * 3 + 4 + j] ;
@@ -71,7 +71,7 @@ uint8_t EM_ALGO(uint8_t pixel, int pos, data_t parameters[IMG_SIZE*MODELS*3]) {
 	}
 
 	/*The Gaussian that matches with the pixel (M=1) and has the highest F value is
-	 considered as the “matched distribution�? and its parameters are updated */
+	 considered as the “matched distribution�? and its parameters are updated */
 
 	data_t max_F = 0;
 	data_t min_F = 1000;
